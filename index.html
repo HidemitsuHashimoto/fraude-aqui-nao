@@ -4,27 +4,109 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    body header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    main {
+      border: 2px solid #696969;
+      border-radius: 4px;
+      padding: 2rem;
+      width: fit-content;
+      margin: auto;
+    }
+
+    .main {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .main ol {
+      max-width: 600px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      list-style-position: inside;
+    }
+
+    .main ol li {
+      color: #fff;
+      background: #696969;
+      padding: 1rem;
+      border-radius: 4px;
+      width: 100%;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    footer {
+      max-width: 600px;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    footer p {
+      word-break: break-all;
+    }
+
+    footer section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Projeto WhatsFraude Aqui Não</h1>
-  <h2>O projeto visa ajudar a evitar as fraudes focadas no aplicativo Whatsapp.</h2>
+  <main>
+    <header>
+      <h1>Projeto WhatsFraude Aqui Não</h1>
+      <h2>O projeto visa ajudar a evitar as fraudes focadas no aplicativo Whatsapp.</h2>
+    </header>
+  
+    <section class="main">
+      <h2>Orientações para sua segurança</h2>
+      <ol>
+        <li>Nunca forneça dados pessoais. Bancos não ligam solicitando dados, entrega de cartões supostamente clonados ou enviam links de acesso para qualquer informação. Ao receber esse tipo de contato, desligue e acione seu banco pelos canais oficiais.</li>
+        <li>Nunca aceite chamada de vídeo de números desconhecidos. Os golpistas podem usar de forma negativa a Inteligência Artificial para copiar o seu rosto e voz.</li>
+        <li>Ao receber links de números desconhecidos contenha a sua curiosidade e ignore.</li>
+        <li>Ao receber links de números conhecidos, fale com a pessoa que enviou e confirme com ela se realmente mandou. Na dúvida, não abra, ela pode ter sido vítima de fraude.</li>
+        <li>Nunca faça transferências financeiras para desconhecidos. É comum golpistas enviarem falsas oportunidades de empréstimos, sorteios, negociação de dívidas, vaga de emprego ou investimentos, em condições muito tentadoras.</li>
+        <li>Sempre que você habilitar uma autenticação em duas etapas, nunca forneça os códigos gerados para ninguém.</li>
+        <li>Se você receber áudio de um conhecido ou familiar, por número desconhecido, contate essa pessoa pelo número salvo em sua agenda e tenha certeza de que foi ela que realmente enviou esse áudio. Os golpistas podem ter usado de forma negativa a Inteligência Artificial para copiar a voz.</li>
+        <li>Desconfie sempre! Mantenha a calma, serenidade e não sucumba a pressão!</li>
+      </ol>
+    </section>
+  
+    <footer>
+      <h3>Referências:</h3>
 
-  <h2>Cuidados necessários</h2>
-  <ol>
-    <li>Nunca forneça dados pessoais. Bancos e instituições nunca ligam solicitando seus dados. Ao receber esse tipo de ligação desligue e entre em contato com a instituição referida pelos canais oficiais.</li>
-    <li>Nunca aceite chamada de vídeo de números desconhecidos. Os golpistas podem usar de forma negativa Inteligência Artificial para copiar o seu rosto e voz.</li>
-    <li>Ao receber links de números desconhecidos contenha a sua curiosidade e ignore.</li>
-    <li>Ao receber links de números conhecidos, certifique-se com a pessoa se realmente enviou e se ela tem certeza da procedência. Na dúvida não abra.</li>
-    <li>Nunca faça transferências financeiras para desconhecidos. É comum golpistas enviarem falsas oportunidades de empréstimos, sorteios ou vaga de emprego.</li>
-  </ol>
-
-  <h2>Algumas dicas</h2>
-  <ol>
-    <li>Habilite sempre que possível a autenticação em duas etapas. Nunca forneça </li>
-  </ol>
-
-  <h3>Referências:</h3>
-  <p>https://jovempan.com.br/opiniao-jovem-pan/comentaristas/davis-alves/conheca-os-10-principais-golpes-de-whatsapp.html</p>
-  <p>https://www.tecmundo.com.br/seguranca/234500-whatsapp-43-usuarios-vitimas-golpes-diz-pesquisa.htm#:~:text=WhatsApp%3A%2043%25%20dos%20usuários%20foram%20vítimas%20de%20golpes%2C%20diz%20pesquisa,-25%2F02%2F2022</p>
+      <section>
+        <p>https://jovempan.com.br/opiniao-jovem-pan/comentaristas/davis-alves/conheca-os-10-principais-golpes-de-whatsapp.html</p>
+        <p>https://www.tecmundo.com.br/seguranca/234500-whatsapp-43-usuarios-vitimas-golpes-diz-pesquisa.htm#:~:text=WhatsApp%3A%2043%25%20dos%20usuários%20foram%20vítimas%20de%20golpes%2C%20diz%20pesquisa,-25%2F02%2F2022</p>
+      </section>
+    </footer>
+  </main>
 </body>
 </html>
